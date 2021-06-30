@@ -40,15 +40,12 @@ spec:
     ```
     kubectl get gitrepositories.source.toolkit.fluxcd.io -A
 
-    ```
-
-    ```
     NAMESPACE     NAME                     URL                                                READY   STATUS                                                              AGE
-flux-system   oracle-gitops-workshop   https://github.com/xcrezd/oracle-gitops-workshop   True    Fetched revision: master/ce3cfabe028563a439c1ccde90be94fb7a9eb8ed   95s
+   flux-system   oracle-gitops-workshop   https://github.com/xcrezd/oracle-gitops-workshop   True    Fetched revision: master/ce3cfabe028563a439c1ccde90be94fb7a9eb8ed   95s
 
     ```
 
-    3. Motice that `kustomize` updated to the latest git commit
+    3. Notice that `kustomize` updated to the latest git commit
     ```
     kubectl get kustomizations.kustomize.toolkit.fluxcd.io -A
     ```
