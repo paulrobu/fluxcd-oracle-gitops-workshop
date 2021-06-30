@@ -11,7 +11,7 @@ spec:
       chart: ./charts/hello-kubernetes
       sourceRef:
         kind: GitRepository
-        name: oracle-gitops-workshop
+        name: fluxcd-oracle-gitops-workshop
       interval: 1m
   targetNamespace: default
   values:
